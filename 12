@@ -1,0 +1,15 @@
+let nota1 = Number(prompt("Digite a primeira nota:"));
+let nota2 = Number(prompt("Digite a segunda nota:"));
+if (nota1 <= 10 && nota2 <= 10) {
+let media = (nota1 + nota2) / 2;
+console.log("Média:", media);
+if (media >= 6) {
+console.log("APROVADO");
+} else if (media == 5) {
+console.log("Recuperação");
+} else {
+console.log("Reprovado");
+}
+} else {
+console.log("Digite notas abaixo de 10");
+}
