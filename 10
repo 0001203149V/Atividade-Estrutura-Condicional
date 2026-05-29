@@ -1,0 +1,6 @@
+let idadeUsuario = 16;
+if (idadeUsuario >= 18) {
+    console.log("Bem-vindo(a)");
+} else {
+    console.log("Acesso negado");
+}
