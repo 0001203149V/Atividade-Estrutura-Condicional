@@ -1,0 +1,23 @@
+let n1 = 10;
+let n2 = 5;
+let operacao = "multiplicação"; 
+switch (operacao) {
+    case "soma":
+      console.log(`Resultado: ${n1 + n2}`);
+        break;
+    case "subtração":
+        console.log(`Resultado: ${n1 - n2}`);
+        break;
+    case "multiplicação":
+        console.log(`Resultado: ${n1 * n2}`);
+        break;
+    case "divisão":
+        if (n2 !== 0) {
+            console.log(`Resultado: ${n1 / n2}`);
+        } else {
+            console.log("Erro: Não é possível dividir por zero");
+        }
+        break;
+    default:
+        console.log("Operação falha");
+}
